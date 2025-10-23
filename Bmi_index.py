@@ -15,11 +15,11 @@ def disp():
         n=float(i[2])
         print("BMI: ",n)
         if n<18.5:
-            print("Low BMI - Underweight")
+            print("Underweight")
         elif n>18.5 and n<24.9:
-            print("Medium BMI - Normal weight")
+            print("Normal weight")
         elif n>24.9:
-            print("High BMI - Overweight")
+            print("Overweight")
         st=float(i[3])
         dt=float(i[4])
         print("Blood pressure:",st,"/",dt,"mmHg")
@@ -60,3 +60,4 @@ while c==0:
     else:
         c=1
     
+
