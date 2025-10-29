@@ -54,10 +54,13 @@ while c==0:
     if x==1:
         z=int(input("Enter the number of records to be entered:"))
         for i in range(z):
+            print("User:",i)
             inp()
+            print()
     elif x==2:
         disp()
     else:
         c=1
     
+
 
