@@ -50,7 +50,10 @@ def inp():
     g.writerow(nl)
     f.close()
 while c==0:
-    x=int(input("Enter 1 to enter data, Enter 2 to view output, Enter 3 to exit:"))
+    print("Enter 1 to enter data")
+    print("Enter 2 to view output")
+    print("Enter 3 to exit")
+    x=int(input("Enter choice:"))
     if x==1:
         z=int(input("Enter the number of records to be entered:"))
         for i in range(z):
@@ -62,6 +65,7 @@ while c==0:
     else:
         c=1
     
+
 
 
 
